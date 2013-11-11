@@ -9,6 +9,7 @@
 #include <iostream>
 #include <vector>
 #include <string>
+#include <map>
 
 using namespace std;
 
@@ -20,6 +21,9 @@ int main(int argc, const char * argv[])
     string str;
     str = "string";
     cout << str << endl;
+
+    map<int,int> m;
+    m.insert(make_pair(1, 123));
     
     // insert code here...
     std::cout << "Hello, World!\n";
