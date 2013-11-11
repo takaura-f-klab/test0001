@@ -25,6 +25,8 @@ int main(int argc, const char * argv[])
     map<int,int> m;
     m.insert(make_pair(1, 123));
     
+    cout << str << endl;
+    
     return 0;
 }
 
