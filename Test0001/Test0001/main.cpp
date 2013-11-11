@@ -7,10 +7,16 @@
 //
 
 #include <iostream>
+#include <vector>
+
+using namespace std;
 
 int main(int argc, const char * argv[])
 {
-
+    vector<int> vec;
+    vec.push_back(1);
+    
+    
     // insert code here...
     std::cout << "Hello, World!\n";
     return 0;
