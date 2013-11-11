@@ -8,6 +8,7 @@
 
 #include <iostream>
 #include <vector>
+#include <map>
 
 using namespace std;
 
@@ -15,7 +16,8 @@ int main(int argc, const char * argv[])
 {
     vector<int> vec;
     vec.push_back(1);
-    
+    map<int,int> m;
+    m.insert(make_pair(1, 123));
     
     // insert code here...
     std::cout << "Hello, World!\n";
