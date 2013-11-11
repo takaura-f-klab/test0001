@@ -7,25 +7,12 @@
 //
 
 #include <iostream>
-#include <vector>
-#include <string>
-#include <map>
 
 using namespace std;
 
 int main(int argc, const char * argv[])
 {
-    vector<int> vec;
-    vec.push_back(1);
-    
-    string str;
-    str = "string";
-    cout << str << endl;
-
-    map<int,int> m;
-    m.insert(make_pair(1, 123));
-    
-    cout << str << endl;
+    cout << "hello" << endl;
     
     return 0;
 }
