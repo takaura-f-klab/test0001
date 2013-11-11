@@ -19,6 +19,7 @@ int main(int argc, const char * argv[])
     
     string str;
     str = "string";
+    cout << str << endl;
     
     // insert code here...
     std::cout << "Hello, World!\n";
