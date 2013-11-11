@@ -8,6 +8,7 @@
 
 #include <iostream>
 #include <vector>
+#include <string>
 
 using namespace std;
 
@@ -16,6 +17,8 @@ int main(int argc, const char * argv[])
     vector<int> vec;
     vec.push_back(1);
     
+    string str;
+    str = "string";
     
     // insert code here...
     std::cout << "Hello, World!\n";
